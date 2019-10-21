@@ -1,0 +1,22 @@
+.custom-btn(@bg-color, @width, @txt-color){
+    display: block;
+    background-color: @bg-color;
+    cursor: pointer;
+    width: @width;
+    height: 45px;
+    font-size: 2rem;
+    border-radius: 10px;
+    color:@txt-color;
+    
+    &:hover{
+        background-color: @txt-color;
+        color: @bg-color;
+    }
+}
+
+.flexBox(@j, @a, @d){
+    display: flex;
+    justify-content: @j;
+    align-items: @a;
+    flex-direciton: @d;
+}
