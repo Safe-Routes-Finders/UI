@@ -141,7 +141,7 @@ p {
   font-family: 'Raleway', sans-serif;
 }
 h1 {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 h2 {
   font-size: 2.5rem;
@@ -151,4 +151,62 @@ h3 {
 }
 p {
   font-size: 1.2rem;
+}
+header {
+  background-color: #5BD59B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direciton: row;
+}
+header h1 {
+  color: #1E2635;
+  font-weight: bold;
+}
+header .logo-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direciton: row;
+}
+header img {
+  width: 20%;
+}
+header nav {
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direciton: row;
+}
+header nav button {
+  display: block;
+  background-color: #1E2635;
+  cursor: pointer;
+  width: 150px;
+  height: 45px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border-radius: 10px;
+  color: #F3EDE6;
+}
+header nav button:hover {
+  background-color: #F3EDE6;
+  color: #1E2635;
+}
+header nav a {
+  font-size: 1.2rem;
+  font-family: 'Muli', sans-serif;
+  color: #1E2635;
+  text-decoration: none;
+}
+footer {
+  background-color: #5BD59B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direciton: row;
+}
+footer img {
+  width: 100px;
 }

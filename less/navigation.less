@@ -1,0 +1,27 @@
+header{
+    h1{
+        color: @dark-shades;
+        font-weight: bold;
+    }
+    background-color: @light-accent;
+    .flexBox(center, center, row);
+    .logo-text{
+        .flexBox(flex-start, center, row);
+    }
+    img{
+        width: 20%;
+    }
+    nav{
+        width: 40%;
+        .flexBox(space-evenly, center, row);
+        button{
+            .custom-btn(@dark-shades, 150px, @light-shades);
+        }
+        a{
+            font-size: 1.2rem;
+            font-family: @muli;
+            color: @dark-shades;
+            text-decoration: none;
+        }
+    }
+}
