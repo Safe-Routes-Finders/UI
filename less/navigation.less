@@ -8,6 +8,7 @@ header{
     }
     background-color: @light-accent;
     .flexBox(center, center, row);
+
     @media @tablet{
         padding: 3% 0%;
     }
@@ -24,13 +25,18 @@ header{
             width: 70%;
             justify-content: center;
             text-align: center;
-        }
     }
     img{
         width: 20%;
+        @media @phone{
+            width: 30%;
+        }
     }
     nav{
         width: 40%;
+        @media @phone{
+            width: 90%;
+        }
         .flexBox(space-evenly, center, row);
         @media @tablet{
             width: 100%;
@@ -43,18 +49,19 @@ header{
         
         button{
             .custom-btn(@dark-shades, 150px, @light-shades);
+
             @media @tablet{
                 width: 100px;
             }
             @media @phone{
                 width: 100px;
-            }
         }
         a{
             font-size: 1.2rem;
             font-family: @muli;
             color: @dark-shades;
             text-decoration: none;
+
             @media @tablet{
                 font-size: 1rem;
                 margin: 0 2%;

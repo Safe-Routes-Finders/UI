@@ -142,6 +142,12 @@ p {
 }
 h1 {
   font-size: 2rem;
+  font-weight: 700;
+}
+@media (max-width: 500px) {
+  h1 {
+    font-size: 1.2rem;
+  }
 }
 @media (max-width: 900px) {
   h1 {
@@ -155,6 +161,12 @@ h1 {
 }
 h2 {
   font-size: 2.5rem;
+  font-weight: 700;
+}
+@media (max-width: 500px) {
+  h2 {
+    font-size: 2rem;
+  }
 }
 @media (max-width: 900px) {
   h2 {
@@ -168,6 +180,12 @@ h2 {
 }
 h3 {
   font-size: 2rem;
+  font-weight: 700;
+}
+@media (max-width: 500px) {
+  h3 {
+    font-size: 1.5rem;
+  }
 }
 @media (max-width: 500px) {
   h3 {
@@ -194,6 +212,7 @@ header h1 {
   font-weight: bold;
 }
 @media (max-width: 500px) {
+
   header h1 {
     margin-left: 2%;
   }
@@ -206,7 +225,6 @@ header h1 {
 @media (max-width: 500px) {
   header {
     flex-direction: column;
-  }
 }
 header .logo-text {
   display: flex;
@@ -214,6 +232,7 @@ header .logo-text {
   align-items: center;
   flex-direciton: row;
 }
+
 @media (max-width: 900px) {
   header .logo-text {
     width: 55%;
@@ -224,10 +243,16 @@ header .logo-text {
     width: 70%;
     justify-content: center;
     text-align: center;
+
   }
 }
 header img {
   width: 20%;
+}
+@media (max-width: 500px) {
+  header img {
+    width: 30%;
+  }
 }
 header nav {
   width: 40%;
@@ -236,6 +261,7 @@ header nav {
   align-items: center;
   flex-direciton: row;
 }
+
 @media (max-width: 900px) {
   header nav {
     width: 100%;
@@ -269,6 +295,7 @@ header nav button:hover {
 @media (max-width: 500px) {
   header nav button {
     height: 35px;
+
   }
 }
 @media (max-width: 900px) {
@@ -292,6 +319,7 @@ header nav a {
   color: #1E2635;
   text-decoration: none;
 }
+
 @media (max-width: 900px) {
   header nav a {
     font-size: 1rem;
@@ -319,9 +347,9 @@ body .callToAction {
   justify-content: center;
   align-items: center;
   flex-direciton: row;
-  background-image: url("../img/cta-img.jpeg");
+  background-image: url("../img/cta-img.jpg");
   background-position: center;
-  height: 75vh;
+  height: 90vh;
 }
 @media (max-width: 500px) {
   body .callToAction {
