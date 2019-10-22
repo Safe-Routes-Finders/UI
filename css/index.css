@@ -188,11 +188,14 @@ header nav button {
   font-size: 1.2rem;
   text-decoration: none;
   border-radius: 10px;
+  border: 0;
   color: #F3EDE6;
+  font-weight: 700;
 }
 header nav button:hover {
   background-color: #F3EDE6;
   color: #1E2635;
+  border: 2px solid #1E2635;
 }
 header nav a {
   font-size: 1.2rem;
@@ -209,4 +212,143 @@ footer {
 }
 footer img {
   width: 100px;
+}
+body .callToAction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direciton: row;
+  background-image: url("../img/cta-img.jpeg");
+  background-position: center;
+  height: 75vh;
+}
+@media (max-width: 500px) {
+  body .callToAction {
+    height: 50vh;
+  }
+}
+body .callToAction .ctaCont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direciton: column;
+  flex-wrap: wrap;
+  height: 40%;
+}
+body .callToAction h2 {
+  color: #F3EDE6;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 5%;
+  text-shadow: -1px 0 #1E2635, 0 2px #1E2635, 2px 0 #1E2635, 0 -1px #1E2635;
+}
+@media (max-width: 500px) {
+  body .callToAction h2 {
+    font-size: 2rem;
+  }
+}
+body .callToAction button {
+  display: block;
+  background-color: #1E2635;
+  cursor: pointer;
+  width: 70%;
+  height: 45px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border-radius: 10px;
+  border: 0;
+  color: #F3EDE6;
+  font-weight: 700;
+}
+body .callToAction button:hover {
+  background-color: #F3EDE6;
+  color: #1E2635;
+  border: 2px solid #1E2635;
+}
+@media (max-width: 500px) {
+  body .callToAction button {
+    width: 40%;
+  }
+}
+body .featSection1 {
+  background-color: #5BD59B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direciton: row;
+  padding: 5% 5%;
+}
+@media (max-width: 500px) {
+  body .featSection1 {
+    flex-direction: column;
+  }
+}
+body .featSection1 div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direciton: row;
+  flex-wrap: wrap;
+  margin-left: 5%;
+}
+body .featSection1 div h2 {
+  margin: 5% 0;
+}
+body .featSection1 div button {
+  display: block;
+  background-color: #1E2635;
+  cursor: pointer;
+  width: 30%;
+  height: 45px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border-radius: 10px;
+  border: 0;
+  color: #F3EDE6;
+  font-weight: 700;
+  margin: 5% 0;
+}
+body .featSection1 div button:hover {
+  background-color: #F3EDE6;
+  color: #1E2635;
+  border: 2px solid #1E2635;
+}
+body .featSection2 {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  background-color: #1E2635;
+  color: #F3EDE6;
+  padding: 5% 5%;
+}
+body .featSection2 div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direciton: row;
+  flex-wrap: wrap;
+  margin-right: 5%;
+}
+body .featSection2 div h2 {
+  margin: 5% 0;
+}
+body .featSection2 div button {
+  display: block;
+  background-color: #5BD59B;
+  cursor: pointer;
+  width: 30%;
+  height: 45px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border-radius: 10px;
+  border: 0;
+  color: #1E2635;
+  font-weight: 700;
+  margin: 5% 0;
+}
+body .featSection2 div button:hover {
+  background-color: #1E2635;
+  color: #5BD59B;
+  border: 2px solid #5BD59B;
 }

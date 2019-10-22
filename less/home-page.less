@@ -1,0 +1,76 @@
+
+
+body{
+    .callToAction{
+        .flexBox(center, center, row);
+        background-image: url("../img/cta-img.jpeg");
+        background-position: center;
+        height: 75vh;
+        @media @phone{
+            height: 50vh;
+        }
+        .ctaCont{
+            
+            .flexBox(center, center, column);
+            flex-wrap: wrap;
+            height: 40%;
+        }
+        h2{
+            color: @light-shades;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 5%;
+            text-shadow: -1px 0 @dark-shades, 0 2px @dark-shades, 2px 0 @dark-shades, 0 -1px @dark-shades;
+            @media @phone{
+                font-size: 2rem;
+            }
+        }
+        button{
+            .custom-btn(@dark-shades, 70%, @light-shades);
+            @media @phone{
+                width: 40%;
+            }
+        }
+    }//this ends callToAction
+    .featSection1{
+        background-color: @light-accent;
+        .flexBox(center, center, row);
+        padding: 5% 5%;
+        @media @phone{
+            flex-direction: column;
+        }
+        div{
+            h2{
+                margin: 5% 0;
+            }
+            .flexBox(center, center, row);
+            flex-wrap: wrap;
+            margin-left: 5%;
+            button{
+                .custom-btn(@dark-shades, 30%, @light-shades);
+                margin: 5% 0;
+            }
+        }
+    }//this ends featSection1
+    .featSection2{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+        background-color: @dark-shades;
+        color: @light-shades;
+        padding: 5% 5%;
+        div{
+            h2{
+                margin: 5% 0;
+            }
+            .flexBox(center, center, row);
+            flex-wrap: wrap;
+            margin-right: 5%;
+            button{
+                .custom-btn(@light-accent, 30%, @dark-shades);
+                margin: 5% 0;
+            }
+        }
+    }
+}//this ends my body
