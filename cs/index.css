@@ -583,7 +583,7 @@ body .featSection2 div button:hover {
   display: flex;
   padding-top: 2%;
 }
-.set-one .individual .btn-sect .hub {
+.set-one .individual .btn-sect .folio {
   display: block;
   background-color: #16416C;
   cursor: pointer;
@@ -596,12 +596,41 @@ body .featSection2 div button:hover {
   color: #F3EDE6;
   font-weight: 700;
   height: 30px;
-  font-weight: normal;
+  margin-right: 2%;
 }
-.set-one .individual .btn-sect .hub:hover {
+.set-one .individual .btn-sect .folio:hover {
   background-color: #F3EDE6;
   color: #16416C;
   border: 2px solid #16416C;
+}
+@media (max-width: 500px) {
+  .set-one .individual .btn-sect .folio {
+    height: 35px;
+  }
+}
+@media (max-width: 900px) {
+  .set-one .individual .btn-sect .folio {
+    height: 40px;
+  }
+}
+.set-one .individual .btn-sect .hub {
+  display: block;
+  background-color: #5BD59B;
+  cursor: pointer;
+  width: 100px;
+  height: 45px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border-radius: 10px;
+  border: 0;
+  color: #16416C;
+  font-weight: 700;
+  height: 30px;
+}
+.set-one .individual .btn-sect .hub:hover {
+  background-color: #16416C;
+  color: #5BD59B;
+  border: 2px solid #5BD59B;
 }
 @media (max-width: 500px) {
   .set-one .individual .btn-sect .hub {
@@ -636,9 +665,9 @@ body .featSection2 div button:hover {
   display: flex;
   padding-top: 2%;
 }
-.set-two .individual .hub {
+.set-two .individual .folio {
   display: block;
-  background-color: #16416C;
+  background-color: #5BD59B;
   cursor: pointer;
   width: 100px;
   height: 45px;
@@ -649,11 +678,41 @@ body .featSection2 div button:hover {
   color: #F3EDE6;
   font-weight: 700;
   height: 30px;
+  margin-right: 2%;
+}
+.set-two .individual .folio:hover {
+  background-color: #F3EDE6;
+  color: #5BD59B;
+  border: 2px solid #5BD59B;
+}
+@media (max-width: 500px) {
+  .set-two .individual .folio {
+    height: 35px;
+  }
+}
+@media (max-width: 900px) {
+  .set-two .individual .folio {
+    height: 40px;
+  }
+}
+.set-two .individual .hub {
+  display: block;
+  background-color: #F3EDE6;
+  cursor: pointer;
+  width: 100px;
+  height: 45px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border-radius: 10px;
+  border: 0;
+  color: #16416C;
+  font-weight: 700;
+  height: 30px;
 }
 .set-two .individual .hub:hover {
-  background-color: #F3EDE6;
-  color: #16416C;
-  border: 2px solid #16416C;
+  background-color: #16416C;
+  color: #F3EDE6;
+  border: 2px solid #F3EDE6;
 }
 @media (max-width: 500px) {
   .set-two .individual .hub {
