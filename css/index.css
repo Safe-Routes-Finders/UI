@@ -310,6 +310,10 @@ header nav a {
     text-decoration: underline;
   }
 }
+.about-text {
+  margin-top: -16px;
+  margin-bottom: -16px;
+}
 footer {
   background-color: #5BD59B;
   display: flex;
@@ -583,36 +587,6 @@ body .featSection2 div button:hover {
   display: flex;
   padding-top: 2%;
 }
-.set-one .individual .folio {
-  display: block;
-  background-color: #16416C;
-  cursor: pointer;
-  width: 100px;
-  height: 45px;
-  font-size: 1.2rem;
-  text-decoration: none;
-  border-radius: 10px;
-  border: 0;
-  color: #F3EDE6;
-  font-weight: 700;
-  height: 30px;
-  margin-right: 2%;
-}
-.set-one .individual .folio:hover {
-  background-color: #F3EDE6;
-  color: #16416C;
-  border: 2px solid #16416C;
-}
-@media (max-width: 500px) {
-  .set-one .individual .folio {
-    height: 35px;
-  }
-}
-@media (max-width: 900px) {
-  .set-one .individual .folio {
-    height: 40px;
-  }
-}
 .set-one .individual .hub {
   display: block;
   background-color: #5BD59B;
@@ -664,36 +638,6 @@ body .featSection2 div button:hover {
 .set-two .individual .btn-sect {
   display: flex;
   padding-top: 2%;
-}
-.set-two .individual .folio {
-  display: block;
-  background-color: #5BD59B;
-  cursor: pointer;
-  width: 100px;
-  height: 45px;
-  font-size: 1.2rem;
-  text-decoration: none;
-  border-radius: 10px;
-  border: 0;
-  color: #F3EDE6;
-  font-weight: 700;
-  height: 30px;
-  margin-right: 2%;
-}
-.set-two .individual .folio:hover {
-  background-color: #F3EDE6;
-  color: #5BD59B;
-  border: 2px solid #5BD59B;
-}
-@media (max-width: 500px) {
-  .set-two .individual .folio {
-    height: 35px;
-  }
-}
-@media (max-width: 900px) {
-  .set-two .individual .folio {
-    height: 40px;
-  }
 }
 .set-two .individual .hub {
   display: block;
