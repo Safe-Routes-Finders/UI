@@ -5,23 +5,47 @@ header{
     }
     background-color: @light-accent;
     .flexBox(center, center, row);
+    @media @phone{
+        padding: 3% 0;
+    }
     .logo-text{
         .flexBox(flex-start, center, row);
+        @media @phone{
+            width: 50%;
+            margin-left: 3%;
+        }
     }
     img{
         width: 20%;
+        @media @phone{
+            width: 30%;
+        }
     }
     nav{
         width: 40%;
+        @media @phone{
+            width: 90%;
+        }
         .flexBox(space-evenly, center, row);
         button{
             .custom-btn(@dark-shades, 150px, @light-shades);
+            @media @phone{
+                height: 35px;
+                font-size: 1rem;
+                width: 100px;
+                margin-right: 3%;
+            }
         }
         a{
             font-size: 1.2rem;
             font-family: @muli;
             color: @dark-shades;
             text-decoration: none;
+            @media @phone{
+                font-size: 1rem;
+                margin: 0 3%;
+                text-decoration: underline;
+            }
         }
     }
 }
