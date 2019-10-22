@@ -310,6 +310,10 @@ header nav a {
     text-decoration: underline;
   }
 }
+.about-text {
+  margin-top: -16px;
+  margin-bottom: -16px;
+}
 footer {
   background-color: #5BD59B;
   display: flex;
@@ -605,10 +609,22 @@ body .featSection2 div button:hover {
 }
 @media (max-width: 500px) {
   .set-one .individual .btn-sect .hub {
+  color: #16416C;
+  font-weight: 700;
+  height: 30px;
+}
+.set-one .individual .hub:hover {
+  background-color: #16416C;
+  color: #5BD59B;
+  border: 2px solid #5BD59B;
+}
+@media (max-width: 500px) {
+  .set-one .individual .hub {
     height: 35px;
   }
 }
 @media (max-width: 900px) {
+
   .set-one .individual .btn-sect .hub {
     height: 40px;
   }
@@ -636,6 +652,7 @@ body .featSection2 div button:hover {
   display: flex;
   padding-top: 2%;
 }
+
 .set-two .individual .btn-sect .hub {
   display: block;
   background-color: #16416C;
@@ -652,6 +669,7 @@ body .featSection2 div button:hover {
   font-weight: normal;
 }
 .set-two .individual .btn-sect .hub:hover {
+
   background-color: #F3EDE6;
   color: #16416C;
   border: 2px solid #16416C;
