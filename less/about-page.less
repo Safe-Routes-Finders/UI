@@ -24,11 +24,11 @@
 .set-one {
     display: flex;
     padding-left: 2%;
-    margin-right: -5%;
     margin-top: 2%;
     
     .individual {
-        width: 20vw;
+        width: 20%;
+        justify-content: space-evenly;
 
         h3 {
             font-size: 1.3rem;
@@ -44,7 +44,7 @@
             padding-top: 2%;
             
         .hub {
-            .custom-btn (@main-color, 100px, @light-shades);
+            .custom-btn(@main-color, 100px, @light-shades);
             height: 30px;
             font-weight: normal;
             }
@@ -58,11 +58,11 @@
 .set-two {
     display: flex;
     padding-left: 2%;
-    margin-right: -2%;
     margin-bottom: 3%;
 
    .individual {
-        width: 20vw;
+        width: 20%;
+        justify-content: space-evenly;
 
         img {
             padding-top: 2.5%;
@@ -80,12 +80,15 @@
         .btn-sect {
             display: flex;
             padding-top: 2%;
-        }
+        
 
         .hub {
-            .custom-btn (@main-color, 100px, @light-shades);
+            .custom-btn(@main-color, 100px, @light-shades);
             height: 30px;
-        }
+            font-weight: normal;
+            }
+
+        }//Closes .btn-sect  
 
     }//Closes .individual
 
