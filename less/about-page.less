@@ -10,8 +10,8 @@
     .about-text {
         flex-direction: column;
         text-align: center;
-        padding-top: 13%;
-        padding-right: 2%;
+        padding-top: 10%;
+        padding-right: 6%;
 
         h1 {
             padding: 3%;
@@ -24,11 +24,11 @@
 .set-one {
     display: flex;
     padding-left: 2%;
-    margin-right: -5%;
     margin-top: 2%;
-
+    
     .individual {
-        width: 20vw;
+        width: 20%;
+        justify-content: space-evenly;
 
         h3 {
             font-size: 1.3rem;
@@ -42,31 +42,26 @@
         .btn-sect {
             display: flex;
             padding-top: 2%;
-        }
-
-        // .folio {
-        //     .custom-btn (@main-color, 100px, @light-shades);
-        //     height: 30px;
-        //     margin-right: 2%;   
-        // }
-
         .hub {
-            .custom-btn (@light-accent, 100px, @main-color);
+            .custom-btn(@main-color, 100px, @light-shades);
             height: 30px;
-        }
+            font-weight: normal;
+            }
+
+        }//Closes.btn-sect
 
     }//Closes .individual
-
+    
 }//Closes .set-one
 
 .set-two {
     display: flex;
     padding-left: 2%;
-    margin-right: -2%;
     margin-bottom: 3%;
 
    .individual {
-        width: 20vw;
+        width: 20%;
+        justify-content: space-evenly;
 
         img {
             padding-top: 2.5%;
@@ -84,19 +79,15 @@
         .btn-sect {
             display: flex;
             padding-top: 2%;
-        }
-
-        // .folio {
-        //     .custom-btn (@light-accent, 100px, @light-shades);
-        //     height: 30px;
-        //     margin-right: 2%;   
-        // }
 
         .hub {
-            .custom-btn (@light-shades, 100px, @main-color);
+            .custom-btn(@main-color, 100px, @light-shades);
             height: 30px;
-        }
+            font-weight: normal;
+            }
+
+        }//Closes .btn-sect  
 
     }//Closes .individual
 
-}//Closes .set-two 
+}//Closes .set-two

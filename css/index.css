@@ -561,8 +561,8 @@ body .featSection2 div button:hover {
 .about-top .about-text {
   flex-direction: column;
   text-align: center;
-  padding-top: 13%;
-  padding-right: 2%;
+  padding-top: 10%;
+  padding-right: 6%;
 }
 .about-top .about-text h1 {
   padding: 3%;
@@ -570,11 +570,11 @@ body .featSection2 div button:hover {
 .set-one {
   display: flex;
   padding-left: 2%;
-  margin-right: -5%;
   margin-top: 2%;
 }
 .set-one .individual {
-  width: 20vw;
+  width: 20%;
+  justify-content: space-evenly;
 }
 .set-one .individual h3 {
   font-size: 1.3rem;
@@ -587,9 +587,9 @@ body .featSection2 div button:hover {
   display: flex;
   padding-top: 2%;
 }
-.set-one .individual .hub {
+.set-one .individual .btn-sect .hub {
   display: block;
-  background-color: #5BD59B;
+  background-color: #16416C;
   cursor: pointer;
   width: 100px;
   height: 45px;
@@ -597,6 +597,18 @@ body .featSection2 div button:hover {
   text-decoration: none;
   border-radius: 10px;
   border: 0;
+  color: #F3EDE6;
+  font-weight: 700;
+  height: 30px;
+  font-weight: normal;
+}
+.set-one .individual .btn-sect .hub:hover {
+  background-color: #F3EDE6;
+  color: #16416C;
+  border: 2px solid #16416C;
+}
+@media (max-width: 500px) {
+  .set-one .individual .btn-sect .hub {
   color: #16416C;
   font-weight: 700;
   height: 30px;
@@ -612,18 +624,19 @@ body .featSection2 div button:hover {
   }
 }
 @media (max-width: 900px) {
-  .set-one .individual .hub {
+
+  .set-one .individual .btn-sect .hub {
     height: 40px;
   }
 }
 .set-two {
   display: flex;
   padding-left: 2%;
-  margin-right: -2%;
   margin-bottom: 3%;
 }
 .set-two .individual {
-  width: 20vw;
+  width: 20%;
+  justify-content: space-evenly;
 }
 .set-two .individual img {
   padding-top: 2.5%;
@@ -639,9 +652,10 @@ body .featSection2 div button:hover {
   display: flex;
   padding-top: 2%;
 }
-.set-two .individual .hub {
+
+.set-two .individual .btn-sect .hub {
   display: block;
-  background-color: #F3EDE6;
+  background-color: #16416C;
   cursor: pointer;
   width: 100px;
   height: 45px;
@@ -649,22 +663,24 @@ body .featSection2 div button:hover {
   text-decoration: none;
   border-radius: 10px;
   border: 0;
-  color: #16416C;
+  color: #F3EDE6;
   font-weight: 700;
   height: 30px;
+  font-weight: normal;
 }
-.set-two .individual .hub:hover {
-  background-color: #16416C;
-  color: #F3EDE6;
-  border: 2px solid #F3EDE6;
+.set-two .individual .btn-sect .hub:hover {
+
+  background-color: #F3EDE6;
+  color: #16416C;
+  border: 2px solid #16416C;
 }
 @media (max-width: 500px) {
-  .set-two .individual .hub {
+  .set-two .individual .btn-sect .hub {
     height: 35px;
   }
 }
 @media (max-width: 900px) {
-  .set-two .individual .hub {
+  .set-two .individual .btn-sect .hub {
     height: 40px;
   }
 }
