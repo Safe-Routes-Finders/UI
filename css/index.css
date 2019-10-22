@@ -210,3 +210,129 @@ footer {
 footer img {
   width: 100px;
 }
+.about-top {
+  display: flex;
+  background-color: #1E2635;
+  color: #F3EDE6;
+}
+.about-top img {
+  margin: 5%;
+}
+.about-top .about-text {
+  flex-direction: column;
+  text-align: center;
+  padding-top: 13%;
+  padding-right: 2%;
+}
+.about-top .about-text h1 {
+  padding: 3%;
+}
+.set-one {
+  display: flex;
+  padding-left: 2%;
+  margin-right: -5%;
+  margin-top: 2%;
+}
+.set-one .individual {
+  width: 20vw;
+}
+.set-one .individual h3 {
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+.set-one .individual h4 {
+  line-height: 1.5;
+}
+.set-one .individual .btn-sect {
+  display: flex;
+  padding-top: 2%;
+}
+.set-one .individual .folio {
+  display: block;
+  background-color: #16416C;
+  cursor: pointer;
+  width: 100px;
+  height: 45px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border-radius: 10px;
+  color: #F3EDE6;
+  height: 30px;
+  margin-right: 2%;
+}
+.set-one .individual .folio:hover {
+  background-color: #F3EDE6;
+  color: #16416C;
+}
+.set-one .individual .hub {
+  display: block;
+  background-color: #5BD59B;
+  cursor: pointer;
+  width: 100px;
+  height: 45px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border-radius: 10px;
+  color: #16416C;
+  height: 30px;
+}
+.set-one .individual .hub:hover {
+  background-color: #16416C;
+  color: #5BD59B;
+}
+.set-two {
+  display: flex;
+  padding-left: 2%;
+  margin-right: -2%;
+  margin-bottom: 3%;
+}
+.set-two .individual {
+  width: 20vw;
+}
+.set-two .individual img {
+  padding-top: 2.5%;
+}
+.set-two .individual h3 {
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+.set-two .individual h4 {
+  line-height: 1.5;
+}
+.set-two .individual .btn-sect {
+  display: flex;
+  padding-top: 2%;
+}
+.set-two .individual .folio {
+  display: block;
+  background-color: #5BD59B;
+  cursor: pointer;
+  width: 100px;
+  height: 45px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border-radius: 10px;
+  color: #F3EDE6;
+  height: 30px;
+  margin-right: 2%;
+}
+.set-two .individual .folio:hover {
+  background-color: #F3EDE6;
+  color: #5BD59B;
+}
+.set-two .individual .hub {
+  display: block;
+  background-color: #F3EDE6;
+  cursor: pointer;
+  width: 100px;
+  height: 45px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border-radius: 10px;
+  color: #16416C;
+  height: 30px;
+}
+.set-two .individual .hub:hover {
+  background-color: #16416C;
+  color: #F3EDE6;
+}
