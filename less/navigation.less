@@ -2,17 +2,27 @@ header{
     h1{
         color: @dark-shades;
         font-weight: bold;
+        @media @phone{
+            margin-left: 2%;
+        }
     }
     background-color: @light-accent;
     .flexBox(center, center, row);
+    @media @tablet{
+        padding: 3% 0%;
+    }
     @media @phone{
-        padding: 3% 0;
+        flex-direction: column;
     }
     .logo-text{
         .flexBox(flex-start, center, row);
+        @media @tablet{
+            width: 55%;
+        }
         @media @phone{
-            width: 50%;
-            margin-left: 3%;
+            width: 70%;
+            justify-content: center;
+            text-align: center;
         }
     }
     img{
@@ -23,17 +33,22 @@ header{
     }
     nav{
         width: 40%;
+        @media @tablet{
+            width: 100%;
+            margin: 0 3%;
+        }
         @media @phone{
-            width: 90%;
+            width: 100%;
+            margin: 0 3%;
         }
         .flexBox(space-evenly, center, row);
         button{
             .custom-btn(@dark-shades, 150px, @light-shades);
-            @media @phone{
-                height: 35px;
-                font-size: 1rem;
+            @media @tablet{
                 width: 100px;
-                margin-right: 3%;
+            }
+            @media @phone{
+                width: 100px;
             }
         }
         a{
@@ -41,9 +56,13 @@ header{
             font-family: @muli;
             color: @dark-shades;
             text-decoration: none;
+            @media @tablet{
+                font-size: 1rem;
+                margin: 0 2%;
+            }
             @media @phone{
                 font-size: 1rem;
-                margin: 0 3%;
+                margin: 0 2%;
                 text-decoration: underline;
             }
         }
