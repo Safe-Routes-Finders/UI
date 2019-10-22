@@ -149,16 +149,6 @@ h1 {
     font-size: 1.2rem;
   }
 }
-@media (max-width: 900px) {
-  h1 {
-    font-size: 1.5rem;
-  }
-}
-@media (max-width: 500px) {
-  h1 {
-    font-size: 1.5rem;
-  }
-}
 h2 {
   font-size: 2.5rem;
   font-weight: 700;
@@ -168,24 +158,9 @@ h2 {
     font-size: 2rem;
   }
 }
-@media (max-width: 900px) {
-  h2 {
-    font-size: 2.2rem;
-  }
-}
-@media (max-width: 500px) {
-  h2 {
-    font-size: 2rem;
-  }
-}
 h3 {
   font-size: 2rem;
   font-weight: 700;
-}
-@media (max-width: 500px) {
-  h3 {
-    font-size: 1.5rem;
-  }
 }
 @media (max-width: 500px) {
   h3 {
@@ -212,19 +187,9 @@ header h1 {
   font-weight: bold;
 }
 @media (max-width: 500px) {
-
-  header h1 {
-    margin-left: 2%;
-  }
-}
-@media (max-width: 900px) {
   header {
-    padding: 3% 0%;
+    padding: 3% 0;
   }
-}
-@media (max-width: 500px) {
-  header {
-    flex-direction: column;
 }
 header .logo-text {
   display: flex;
@@ -232,18 +197,10 @@ header .logo-text {
   align-items: center;
   flex-direciton: row;
 }
-
-@media (max-width: 900px) {
-  header .logo-text {
-    width: 55%;
-  }
-}
 @media (max-width: 500px) {
   header .logo-text {
-    width: 70%;
-    justify-content: center;
-    text-align: center;
-
+    width: 50%;
+    margin-left: 3%;
   }
 }
 header img {
@@ -261,17 +218,9 @@ header nav {
   align-items: center;
   flex-direciton: row;
 }
-
-@media (max-width: 900px) {
-  header nav {
-    width: 100%;
-    margin: 0 3%;
-  }
-}
 @media (max-width: 500px) {
   header nav {
-    width: 100%;
-    margin: 0 3%;
+    width: 90%;
   }
 }
 header nav button {
@@ -295,22 +244,9 @@ header nav button:hover {
 @media (max-width: 500px) {
   header nav button {
     height: 35px;
-
-  }
-}
-@media (max-width: 900px) {
-  header nav button {
-    height: 40px;
-  }
-}
-@media (max-width: 900px) {
-  header nav button {
+    font-size: 1rem;
     width: 100px;
-  }
-}
-@media (max-width: 500px) {
-  header nav button {
-    width: 100px;
+    margin-right: 3%;
   }
 }
 header nav a {
@@ -319,17 +255,11 @@ header nav a {
   color: #1E2635;
   text-decoration: none;
 }
-
-@media (max-width: 900px) {
-  header nav a {
-    font-size: 1rem;
-    margin: 0 2%;
-  }
-}
 @media (max-width: 500px) {
   header nav a {
     font-size: 1rem;
-    margin: 0 2%;
+    margin: 0 3%;
+    text-decoration: underline;
   }
 }
 footer {
@@ -353,12 +283,7 @@ body .callToAction {
 }
 @media (max-width: 500px) {
   body .callToAction {
-    height: 20vh;
-  }
-}
-@media (max-width: 900px) {
-  body .callToAction {
-    height: 65vh;
+    height: 50vh;
   }
 }
 body .callToAction .ctaCont {
@@ -401,21 +326,6 @@ body .callToAction button:hover {
 }
 @media (max-width: 500px) {
   body .callToAction button {
-    height: 35px;
-  }
-}
-@media (max-width: 900px) {
-  body .callToAction button {
-    height: 40px;
-  }
-}
-@media (max-width: 500px) {
-  body .callToAction button {
-    width: 40%;
-  }
-}
-@media (max-width: 900px) {
-  body .callToAction button {
     width: 40%;
   }
 }
@@ -430,12 +340,6 @@ body .featSection1 {
 @media (max-width: 500px) {
   body .featSection1 {
     flex-direction: column;
-  }
-}
-@media (max-width: 900px) {
-  body .featSection1 {
-    flex-direction: column;
-    text-align: center;
   }
 }
 @media (max-width: 500px) {
@@ -453,11 +357,6 @@ body .featSection1 div {
 }
 body .featSection1 div h2 {
   margin: 5% 0;
-}
-@media (max-width: 900px) {
-  body .featSection1 div {
-    margin-left: 0;
-  }
 }
 body .featSection1 div button {
   display: block;
@@ -480,16 +379,6 @@ body .featSection1 div button:hover {
 }
 @media (max-width: 500px) {
   body .featSection1 div button {
-    height: 35px;
-  }
-}
-@media (max-width: 900px) {
-  body .featSection1 div button {
-    height: 40px;
-  }
-}
-@media (max-width: 500px) {
-  body .featSection1 div button {
     width: 60%;
   }
 }
@@ -507,12 +396,6 @@ body .featSection2 {
     flex-direction: column;
   }
 }
-@media (max-width: 900px) {
-  body .featSection2 {
-    flex-direction: column;
-    text-align: center;
-  }
-}
 @media (max-width: 500px) {
   body .featSection2 img {
     width: 95%;
@@ -528,11 +411,6 @@ body .featSection2 div {
 }
 body .featSection2 div h2 {
   margin: 5% 0;
-}
-@media (max-width: 900px) {
-  body .featSection2 div {
-    margin-right: 0;
-  }
 }
 body .featSection2 div button {
   display: block;
@@ -552,16 +430,6 @@ body .featSection2 div button:hover {
   background-color: #1E2635;
   color: #5BD59B;
   border: 2px solid #5BD59B;
-}
-@media (max-width: 500px) {
-  body .featSection2 div button {
-    height: 35px;
-  }
-}
-@media (max-width: 900px) {
-  body .featSection2 div button {
-    height: 40px;
-  }
 }
 @media (max-width: 500px) {
   body .featSection2 div button {
