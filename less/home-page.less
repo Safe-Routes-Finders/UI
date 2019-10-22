@@ -39,6 +39,11 @@ body{
         @media @phone{
             flex-direction: column;
         }
+        img{
+            @media @phone{
+            width: 95%;
+            }
+        }
         div{
             h2{
                 margin: 5% 0;
@@ -49,6 +54,9 @@ body{
             button{
                 .custom-btn(@dark-shades, 30%, @light-shades);
                 margin: 5% 0;
+                @media @phone{
+                    width: 60%;
+                }
             }
         }
     }//this ends featSection1
@@ -60,6 +68,14 @@ body{
         background-color: @dark-shades;
         color: @light-shades;
         padding: 5% 5%;
+        @media @phone{
+            flex-direction: column;
+        }
+        img{
+            @media @phone{
+                width: 95%;
+                }
+        }
         div{
             h2{
                 margin: 5% 0;
@@ -70,6 +86,9 @@ body{
             button{
                 .custom-btn(@light-accent, 30%, @dark-shades);
                 margin: 5% 0;
+                @media @phone{
+                    width: 60%;
+                }
             }
         }
     }
