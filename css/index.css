@@ -336,7 +336,7 @@ body .callToAction {
 }
 @media (max-width: 500px) {
   body .callToAction {
-    height: 20vh;
+    height: 60vh;
   }
 }
 body .callToAction .ctaCont {
