@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 5%;
+    padding: 3%;
     font-weight: 700;
     .contactText{
         margin: 0 4%;
@@ -13,11 +13,14 @@
         color: @light-shades;
         line-height: 1.5;
         // border: 1px solid pink;
+        background-color: @light-accent;
+        color: @dark-shades;
+        padding: 3%;
+        border-radius: 10px;
         h1{
             text-align: center;
             padding-bottom: 2%;
             text-decoration: underline;
-            margin-left: -4%;
         }
         p {
             font-weight: normal;
@@ -26,6 +29,11 @@
             list-style: square;
             margin: 3% 5%;
             font-size: 1.4rem;
+            font-family: @muli;
+        }
+        @media @smalldesktop{
+            margin-bottom: 3%;
+            width: 80%;
         }
         @media @tablet{
             margin-bottom: 5%;
@@ -36,7 +44,13 @@
         border-radius: 10px;
         padding: 3%;
         width: 25%;
+        @media @smalldesktop{
+            width: 80%;
+        }
         @media @tablet{
+            width: 100%;
+        }
+        @media @phone{
             width: 100%;
         }
         hr{
@@ -52,6 +66,9 @@
                 padding: 3%;
                 margin-top: -10px;
                 @media @tablet{
+                    width: 90%;
+                }
+                @media @phone{
                     width: 90%;
                 }
             }
