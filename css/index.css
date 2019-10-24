@@ -199,6 +199,11 @@ header h1 {
     margin-left: 2%;
   }
 }
+@media (max-width: 1300px) {
+  header {
+    padding: 3% 0%;
+  }
+}
 @media (max-width: 1000px) {
   header {
     padding: 3% 0%;
