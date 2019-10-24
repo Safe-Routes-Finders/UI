@@ -143,7 +143,7 @@ p {
 h1 {
   font-size: 2rem;
 }
-@media (max-width: 900px) {
+@media (max-width: 800px) {
   h1 {
     font-size: 1.5rem;
   }
@@ -156,7 +156,7 @@ h1 {
 h2 {
   font-size: 2.5rem;
 }
-@media (max-width: 900px) {
+@media (max-width: 800px) {
   h2 {
     font-size: 2.2rem;
   }
@@ -198,7 +198,7 @@ header h1 {
     margin-left: 2%;
   }
 }
-@media (max-width: 900px) {
+@media (max-width: 800px) {
   header {
     padding: 3% 0%;
   }
@@ -214,7 +214,7 @@ header .logo-text {
   align-items: center;
   flex-direciton: row;
 }
-@media (max-width: 900px) {
+@media (max-width: 800px) {
   header .logo-text {
     width: 55%;
   }
@@ -241,7 +241,7 @@ header nav {
   align-items: center;
   flex-direciton: row;
 }
-@media (max-width: 900px) {
+@media (max-width: 800px) {
   header nav {
     width: 100%;
     margin: 0 3%;
@@ -276,12 +276,12 @@ header nav button:hover {
     height: 35px;
   }
 }
-@media (max-width: 900px) {
+@media (max-width: 800px) {
   header nav button {
     height: 40px;
   }
 }
-@media (max-width: 900px) {
+@media (max-width: 800px) {
   header nav button {
     width: 100px;
   }
@@ -297,7 +297,7 @@ header nav a {
   color: #1E2635;
   text-decoration: none;
 }
-@media (max-width: 900px) {
+@media (max-width: 800px) {
   header nav a {
     font-size: 1rem;
     margin: 0 2%;
@@ -333,7 +333,7 @@ body .callToAction {
   background-position: center;
   height: 90vh;
 }
-@media (max-width: 900px) {
+@media (max-width: 800px) {
   body .callToAction {
     height: 65vh;
   }
@@ -386,7 +386,7 @@ body .callToAction button:hover {
     height: 35px;
   }
 }
-@media (max-width: 900px) {
+@media (max-width: 800px) {
   body .callToAction button {
     height: 40px;
   }
@@ -396,7 +396,7 @@ body .callToAction button:hover {
     width: 40%;
   }
 }
-@media (max-width: 900px) {
+@media (max-width: 800px) {
   body .callToAction button {
     width: 40%;
   }
@@ -414,7 +414,7 @@ body .featSection1 {
     flex-direction: column;
   }
 }
-@media (max-width: 900px) {
+@media (max-width: 800px) {
   body .featSection1 {
     flex-direction: column;
     text-align: center;
@@ -436,7 +436,7 @@ body .featSection1 div {
 body .featSection1 div h2 {
   margin: 5% 0;
 }
-@media (max-width: 900px) {
+@media (max-width: 800px) {
   body .featSection1 div {
     margin-left: 0;
   }
@@ -465,7 +465,7 @@ body .featSection1 div button:hover {
     height: 35px;
   }
 }
-@media (max-width: 900px) {
+@media (max-width: 800px) {
   body .featSection1 div button {
     height: 40px;
   }
@@ -489,7 +489,7 @@ body .featSection2 {
     flex-direction: column;
   }
 }
-@media (max-width: 900px) {
+@media (max-width: 800px) {
   body .featSection2 {
     flex-direction: column;
     text-align: center;
@@ -511,7 +511,7 @@ body .featSection2 div {
 body .featSection2 div h2 {
   margin: 5% 0;
 }
-@media (max-width: 900px) {
+@media (max-width: 800px) {
   body .featSection2 div {
     margin-right: 0;
   }
@@ -540,7 +540,7 @@ body .featSection2 div button:hover {
     height: 35px;
   }
 }
-@media (max-width: 900px) {
+@media (max-width: 800px) {
   body .featSection2 div button {
     height: 40px;
   }
@@ -555,8 +555,27 @@ body .featSection2 div button:hover {
   background-color: #1E2635;
   color: #F3EDE6;
 }
+@media (max-width: 500px) {
+  .about-top {
+    flex-direction: column;
+  }
+}
+@media (max-width: 800px) {
+  .about-top {
+    flex-direction: column;
+  }
+}
 .about-top img {
   margin: 5%;
+  border: 1px solid white;
+}
+@media (max-width: 500px) {
+  .about-top img {
+    margin-left: 8%;
+    margin-top: 7%;
+    height: 250px;
+    width: 350px;
+  }
 }
 .about-top .about-text {
   flex-direction: column;
@@ -564,30 +583,83 @@ body .featSection2 div button:hover {
   padding-top: 10%;
   padding-right: 6%;
 }
+@media (max-width: 500px) {
+  .about-top .about-text {
+    padding: 7%;
+  }
+}
+@media (max-width: 800px) {
+  .about-top .about-text {
+    margin-top: -10%;
+    padding: 5%;
+  }
+}
 .about-top .about-text h1 {
   padding: 3%;
 }
-.set-one {
+@media (max-width: 800px) {
+  .bio-sect {
+    border: 1px solid red;
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+.bio-sect .set-one {
   display: flex;
   padding-left: 2%;
   margin-top: 2%;
 }
-.set-one .individual {
+@media (max-width: 500px) {
+  .bio-sect .set-one {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+  }
+}
+.bio-sect .set-one .individual {
   width: 20%;
   justify-content: space-evenly;
 }
-.set-one .individual h3 {
+@media (max-width: 500px) {
+  .bio-sect .set-one .individual {
+    display: flex;
+    width: 95%;
+  }
+}
+@media (max-width: 800px) {
+  .bio-sect .set-one .individual {
+    margin: 2%;
+  }
+}
+@media (max-width: 500px) {
+  .bio-sect .set-one .individual img {
+    width: 150px;
+    height: 150px;
+  }
+}
+@media (max-width: 500px) {
+  .bio-sect .set-one .individual .mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    margin-top: 3%;
+  }
+}
+.bio-sect .set-one .individual h3 {
   font-size: 1.3rem;
   line-height: 1.5;
 }
-.set-one .individual h4 {
+.bio-sect .set-one .individual h4 {
   line-height: 1.5;
 }
-.set-one .individual .btn-sect {
+.bio-sect .set-one .individual .btn-sect {
   display: flex;
   padding-top: 2%;
 }
-.set-one .individual .btn-sect .hub {
+.bio-sect .set-one .individual .btn-sect .hub {
   display: block;
   background-color: #16416C;
   cursor: pointer;
@@ -602,45 +674,80 @@ body .featSection2 div button:hover {
   height: 30px;
   font-weight: normal;
 }
-.set-one .individual .btn-sect .hub:hover {
+.bio-sect .set-one .individual .btn-sect .hub:hover {
   background-color: #F3EDE6;
   color: #16416C;
   border: 2px solid #16416C;
 }
 @media (max-width: 500px) {
-  .set-one .individual .btn-sect .hub {
+  .bio-sect .set-one .individual .btn-sect .hub {
     height: 35px;
   }
 }
-@media (max-width: 900px) {
-  .set-one .individual .btn-sect .hub {
+@media (max-width: 800px) {
+  .bio-sect .set-one .individual .btn-sect .hub {
     height: 40px;
   }
 }
-.set-two {
+@media (max-width: 500px) {
+  .bio-sect .set-one .individual .btn-sect .hub {
+    margin-top: 10%;
+  }
+}
+.bio-sect .set-two {
   display: flex;
   padding-left: 2%;
   margin-bottom: 3%;
 }
-.set-two .individual {
+@media (max-width: 500px) {
+  .bio-sect .set-two {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+  }
+}
+.bio-sect .set-two .individual {
   width: 20%;
   justify-content: space-evenly;
 }
-.set-two .individual img {
+@media (max-width: 500px) {
+  .bio-sect .set-two .individual {
+    display: flex;
+    width: 95%;
+  }
+}
+.bio-sect .set-two .individual img {
   padding-top: 2.5%;
 }
-.set-two .individual h3 {
+@media (max-width: 500px) {
+  .bio-sect .set-two .individual img {
+    width: 150px;
+    height: 150px;
+    padding-top: 0;
+  }
+}
+@media (max-width: 500px) {
+  .bio-sect .set-two .individual .mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    margin-top: 3%;
+  }
+}
+.bio-sect .set-two .individual h3 {
   font-size: 1.3rem;
   line-height: 1.5;
 }
-.set-two .individual h4 {
+.bio-sect .set-two .individual h4 {
   line-height: 1.5;
 }
-.set-two .individual .btn-sect {
+.bio-sect .set-two .individual .btn-sect {
   display: flex;
   padding-top: 2%;
 }
-.set-two .individual .btn-sect .hub {
+.bio-sect .set-two .individual .btn-sect .hub {
   display: block;
   background-color: #16416C;
   cursor: pointer;
@@ -655,19 +762,24 @@ body .featSection2 div button:hover {
   height: 30px;
   font-weight: normal;
 }
-.set-two .individual .btn-sect .hub:hover {
+.bio-sect .set-two .individual .btn-sect .hub:hover {
   background-color: #F3EDE6;
   color: #16416C;
   border: 2px solid #16416C;
 }
 @media (max-width: 500px) {
-  .set-two .individual .btn-sect .hub {
+  .bio-sect .set-two .individual .btn-sect .hub {
     height: 35px;
   }
 }
-@media (max-width: 900px) {
-  .set-two .individual .btn-sect .hub {
+@media (max-width: 800px) {
+  .bio-sect .set-two .individual .btn-sect .hub {
     height: 40px;
+  }
+}
+@media (max-width: 500px) {
+  .bio-sect .set-two .individual .btn-sect .hub {
+    margin-top: 10%;
   }
 }
 .contactForm {
@@ -680,12 +792,28 @@ body .featSection2 div button:hover {
   padding: 5%;
   font-weight: 700;
 }
-.contactForm img {
-  margin: 0 3%;
+.contactForm .contactText {
+  margin: 0 4%;
   max-width: 100%;
+  color: #F3EDE6;
+  line-height: 1.5;
 }
-@media (max-width: 900px) {
-  .contactForm img {
+.contactForm .contactText h1 {
+  text-align: center;
+  padding-bottom: 2%;
+  text-decoration: underline;
+  margin-left: -4%;
+}
+.contactForm .contactText p {
+  font-weight: normal;
+}
+.contactForm .contactText ul {
+  list-style: square;
+  margin: 3% 5%;
+  font-size: 1.4rem;
+}
+@media (max-width: 800px) {
+  .contactForm .contactText {
     margin-bottom: 5%;
   }
 }
@@ -695,7 +823,7 @@ body .featSection2 div button:hover {
   padding: 3%;
   width: 25%;
 }
-@media (max-width: 900px) {
+@media (max-width: 800px) {
   .contactForm .contactCont {
     width: 100%;
   }
@@ -712,7 +840,7 @@ body .featSection2 div button:hover {
   padding: 3%;
   margin-top: -10px;
 }
-@media (max-width: 900px) {
+@media (max-width: 800px) {
   .contactForm .contactCont form input {
     width: 90%;
   }
@@ -754,7 +882,7 @@ body .featSection2 div button:hover {
     height: 35px;
   }
 }
-@media (max-width: 900px) {
+@media (max-width: 800px) {
   .contactForm .contactCont form button {
     height: 40px;
   }
